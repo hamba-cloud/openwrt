@@ -49,21 +49,21 @@ proxies:
         Host: id.khusus.biz.id
     udp: true
   - name: Vmess-Sisemut-WS
-  type: vmess
-  server: s13.indoxray.top
-  port: 443
-  uuid: 7991a372-9c1f-4764-ab8b-cc0f51fcd4b9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s13.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s13.indoxray.top
-  udp: true
+    type: vmess
+    server: s13.indoxray.top
+    port: 443
+    uuid: 7991a372-9c1f-4764-ab8b-cc0f51fcd4b9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: s13.indoxray.top
+    network: ws
+    ws-opts:
+      path: /websocket-vmess
+      headers:
+        Host: s13.indoxray.top
+    udp: true
 
 proxy-groups:
   - name: ID-X
